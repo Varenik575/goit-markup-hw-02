@@ -2,21 +2,19 @@
 <html lang="en">
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <title>Webstudio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/styles.css" />
-
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 
 <body>
@@ -24,23 +22,23 @@
     
         
         <header class="header">
-                <nav class="nav">
-                    <a class=" link logo-theme-light" href="/"> 
-                    <span class="web">WEB</span><span>STUDIO </span>
+                <nav class="navigation">
+                    <a class="logo-theme-light" href="/"> 
+                    <span class="web">WEB</span><span>STUDIO</span>
                     </a>
         
-                    <ul class="list nav-list body-medium title-theme-light">
-                        <li><a class="link" href="/"> Studio </a></li>
-                        <li><a class="link" href="/portfolio.html"> Portfolio </a></li>
-                        <li><a class="link" href="/"> Contacts </a></li>
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="./index.html"> Studio </a></li>
+                        <li><a class="nav-link" href="./portfolio.html"> Portfolio </a></li>
+                        <li><a class="nav-link" href="/"> Contacts </a></li>
                     </ul>
         
                 </nav>
         
-                <address>
-                    <ul class="list address-list">
-                        <li><a class="link" href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-                        <li><a class="link" href="tel:+11(000)111-11-11"> +11 (000) 111-11-11 </a></li>
+                <address class="address-section">
+                    <ul class="address-list">
+                        <li><a class="mail-link" href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
+                        <li><a class="tel-link" href="tel:+11(000)111-11-11"> +11 (000) 111-11-11 </a></li>
                     </ul>
                 </address>
     
@@ -50,41 +48,41 @@
         <main>
     
             <section class="hero-section">
-                <h1 class="h1 hero-header"> Effective Solutions for Your Business </h1>
+                <h1 class="hero-title"> Effective Solutions for Your Business </h1>
                 <button type="button" class="order-button"> Order Service </button>
             </section>
     
             <section class="advantages-section">
                 <h2 hidden> The Advantages Of Working With Us </h2> <!-- alternatively - "Our Strong Sides" or smth-->
-                <ul class="list advantages-list">
-                    <li class="adv-item">
+                <ul class="advantages-list">
+                    <li class="advantages-item">
     
-                        <h3 class="h3 title-theme-light">Strategy</h3>
-                        <p>Our goal is to identify the business problem to walk
+                        <h3 class="item-subtitle">Strategy</h3>
+                        <p class="item-paragraph">Our goal is to identify the business problem to walk
                             away with the perfect and creative solution. </p>
     
                     </li>
     
-                    <li class="adv-item">
+                    <li class="advantages-item">
     
-                        <h3 class="h3 title-theme-light">Punctuality</h3>
-                        <p>Bring the key message to the brand's audience for the best
+                        <h3 class="item-subtitle">Punctuality</h3>
+                        <p class="item-paragraph">Bring the key message to the brand's audience for the best
                             price within the shortest possible time. </p>
     
                     </li>
     
-                    <li class="adv-item">
+                    <li class="advantages-item">
     
-                        <h3 class="h3 title-theme-light">Diligence</h3>
-                        <p>Research and confirm brands that present the strongest
+                        <h3 class="item-subtitle">Diligence</h3>
+                        <p class="item-paragraph">Research and confirm brands that present the strongest
                             digital growth opportunities and minimize risk. </p>
     
                     </li>
     
-                    <li class="adv-item">
+                    <li class="advantages-item">
     
-                        <h3 class="h3 title-theme-light">Technologies</h3>
-                        <p>Design practice focused on digital experiences.
+                        <h3 class="item-subtitle">Technologies</h3>
+                        <p class="item-paragraph">Design practice focused on digital experiences.
                             We bring forth a deep passion for problem-solving. </p>
     
                     </li>
@@ -92,51 +90,55 @@
             </section>
     
             <section class="wawd-section">
-                <h2 class="h2 title-theme-light">What Are We Doing</h2>
-                <ul class="list wawd-list">
-                    <li> <img src="images/img1.jpg" alt="computer screen demonstrating a website" width="360"
+                <h2 class="section-subtitle">What Are We Doing</h2>
+                <ul class="wawd-list">
+                    <li class="wawd-item"> <img src="images/img1.jpg" alt="computer screen demonstrating a website" width="360"
                             height="300" /></li>
     
-                    <li> <img src="images/img3.jpg" alt="fan abstract image of a mobile app" width="360" height="300" />
+                    <li class="wawd-item"> <img src="images/img3.jpg" alt="fan abstract image of a mobile app" width="360" height="300" />
                     </li>
     
-                    <li> <img src="images/img2.jpg" alt="computer screen and a phone demonstrating the same website"
+                    <li class="wawd-item"> <img src="images/img2.jpg" alt="computer screen and a phone demonstrating the same website"
                             width="360" height="300" /></li>
                 </ul>
             </section>
     
             <section class="team-section">
-                <h2 class="h2 title-theme-light">Our Team</h2>
-                <ul class="list team-list">
-                    <li class="team-card">
+                <h2 class="section-subtitle">Our Team</h2>
+                <ul class="team-list">
+                    <li class="team-list-item">
                         <img src="images/guerrero.jpg" alt="Mark Guerrero, Product Designer" width="264" height="260" />
-                        <div class="tcard-content">
-                            <h3 class="h3 title-theme-light">Mark Guerrero</h3>
-                            <p>Product Designer</p>
+                        
+                        <div class="team-item-content">
+                            <h3 class="item-subtitle">Mark Guerrero</h3>
+                            <p class="item-paragraph">Product Designer</p>
                         </div>
                     </li>
     
-                    <li class="team-card">
+                    <li class="team-list-item">
                         <img src="images/ford.jpg" alt="Tom Ford, Frontend Developer" width="264" height="260" />
-                        <div class="tcard-content">
-                            <h3 class="h3 title-theme-light">Tom Ford</h3>
-                            <p>Frontend Developer</p>
+                        
+                        <div class="team-item-content">
+                            <h3 class="item-subtitle">Tom Ford</h3>
+                            <p class="item-paragraph">Frontend Developer</p>
                         </div>
                     </li>
     
-                    <li class="team-card">
+                    <li class="team-list-item">
                         <img src="images/garcia.jpg" alt="Camila Garcia, Marketing" width="264" height="260" />
-                        <div class="tcard-content">
-                            <h3 class="h3 title-theme-light">Camila Garcia</h3>
-                            <p>Marketing</p>
+                        
+                        <div class="team-item-content">
+                            <h3 class="item-subtitle">Camila Garcia</h3>
+                            <p class="item-paragraph">Marketing</p>
                         </div>
                     </li>
     
-                    <li class="team-card">
+                    <li class="team-list-item">
                         <img src="images/wilson.jpg" alt="Daniel Wilson, UI Designer" width="264" height="260" />
-                        <div class="tcard-content">
-                            <h3 class="h3 title-theme-light">Daniel Wilson</h3>
-                            <p>UI Designer</p>
+                        
+                        <div class="team-item-content">
+                            <h3 class="item-subtitle">Daniel Wilson</h3>
+                            <p class="item-paragraph">UI Designer</p>
                         </div>
                     </li>
     
@@ -146,8 +148,8 @@
         </main>
     
         <footer class="footer-section">
-            <a class="link logo-theme-dark" href="/"> <span class="web">WEB</span><span>STUDIO </span> </a>
-            <p class="footer-paragraph text-theme-dark">
+            <a class="logo-theme-dark" href="/"> <span class="web">WEB</span><span>STUDIO </span> </a>
+            <p class="footer-paragraph">
                 Increase the flow of customers and sales for your business with digital
                 marketing & growth solutions.
             </p>
