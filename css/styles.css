@@ -142,9 +142,6 @@ color: var(--pressed);
     color: var(--pressed);
 }
 
-.tel-link {
-
-}
 .tel-link:hover {
     color: var(--primary-brand);
 }
@@ -239,7 +236,7 @@ background-color: var(--white);
 .filter-button {
     color: var(--primary-brand);
     font-weight: 500;
-    
+
     background-color: var(--light);
     padding-left: 24px;
     padding-right: 24px;
