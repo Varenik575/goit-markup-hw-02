@@ -54,8 +54,6 @@ body { /*BODY*/
 
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
 
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -95,7 +93,7 @@ body { /*BODY*/
 
 /*----------------------- logo stuff ----------------*/
 
-.logo-theme-light {
+.logo-header {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
@@ -106,7 +104,7 @@ body { /*BODY*/
     color: var(--dark);
 }
 
-.logo-theme-dark {
+.logo-footer {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
@@ -126,14 +124,6 @@ body { /*BODY*/
 border-bottom: 1px solid var(--accent)
 }
 
-.navigation {
-
-}
-
-.nav-list {
-
-}
-
 .nav-link {
 font-weight: 500;
 color: var(--dark);
@@ -145,17 +135,6 @@ color: var(--dark);
 color: var(--pressed);
 }
 
-.address-section {
-
-}
-
-.address-list {
-
-}
-
-.mail-link {
-
-}
 .mail-link:hover {
     color: var(--primary-brand);
 }
@@ -213,18 +192,6 @@ color: var(--pressed);
 
 /*-------- advantages section ------------ */
 
-.advantages-section {
-
-}
-
-.advantages-list {
-   
-}
-
-.advantages-item {
-   
-}
-
 .item-subtitle {
     color: var(--dark);
     font-weight: 500;
@@ -232,16 +199,7 @@ color: var(--pressed);
     line-height: 1.2;
 }
 
-.item-paragraph {
- 
-}
-
-
-
-/*-------- wawd ("What are We Doing") section ------------ */
-.wawd-section {
-
-}
+/*-------- services ("What are We Doing") section ------------ */
 
 .section-subtitle {
     color: var(--dark);
@@ -250,34 +208,18 @@ color: var(--pressed);
     line-height: 1.11;
 }
 
-.wawd-list {
-
-}
-
-.wawd-item {
-
-}
-
 /*----------- team section ------------ */
 
 .team-section {
-   
-}
-
-.team-list {
-    
+    background-color: var(--accent);
 }
 
 .team-list-item {
-background-color: #FFFFFF;
+background-color: var(--white);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-}
-
-.team-item-content {
-    
 }
 
 /*----------- footer ------------ */
@@ -294,16 +236,10 @@ background-color: #FFFFFF;
 
 /*----------- filters section ------------ */
 
-.filters-section {
-   
-}
-
-.filters-list {
-
-}
-
 .filter-button {
     color: var(--primary-brand);
+    font-weight: 500;
+    
     background-color: var(--light);
     padding-left: 24px;
     padding-right: 24px;
@@ -314,7 +250,7 @@ background-color: #FFFFFF;
 
 }
 .filter-button:hover {
-    color: #FFFFFF;
+    color: var(--white);
     background-color: var(--primary-brand);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -323,7 +259,7 @@ background-color: #FFFFFF;
 }
 
 .filter-button:active {
-    color: #FFFFFF;
+    color: var(--white);
     background-color: var(--pressed);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
                 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -333,21 +269,10 @@ background-color: #FFFFFF;
 
 /*----------- portfolio cards section ------------ */
 
-.portfolio-section {
-   
-}
-
-.portfolio-list {
-   
-}
-
 .portfolio-card {
     border: 1px solid var(--accent)
 }
 
-.card-text {
-
-}
 
 
 
